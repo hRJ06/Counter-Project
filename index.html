@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Counter | Hindol Roy</title>
+</head>
+<body>
+    <!-- wrapper -->
+    <div class = "w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#344151] gap-10">
+        <div class="text-[#0398d4] font-medium text-[20px]">Increment and Decrement</div>
+        <div class = "bg-white flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5">
+            <!-- negative -->
+            <button class="border-r-2 border-[#bfbfbf] pr-5" onclick="dec()">
+              <i class="fa-solid fa-minus"></i>
+            </button>
+            <!-- value -->
+            <div class = "font-bold" id = "counter">0</div>
+            <!-- positive -->
+            <button class="border-l-2 border-[#bfbfbf] pl-5" onclick="inc()">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="script.JS"></script>
+</body>
+</html>
